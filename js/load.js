@@ -1,3 +1,3 @@
-jQuery(window).on("load", function () {
+addEventListener("load", function () {
     $(".loader-wrapper").fadeOut("slow");
 });
