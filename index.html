@@ -15,7 +15,6 @@
     </head>
 
     <body>
-
         <div class="loader-wrapper">
             <span class="loader"><span class="loader-inner"></span></span>
         </div>
@@ -117,7 +116,9 @@
                 <div class="flip-card-container">
                     <div class="flip-card">
                         <div class="flip-card-front">
-                            <img src="assets/imagens/Asset 30.png" />
+                            <img
+                                src="assets/imagens/novas/Quest/HumanRobotics_RobiosGo_20221110.png"
+                            />
                             <h2>RobiOS Quest</h2>
                             <p>
                                 Robô projetado para interagir com humanos de
@@ -150,7 +151,6 @@
                                 <li>Reconhecimento de Voz e Diálogo</li>
                                 <li>Plataforma Aberta e Programável</li>
                                 <li>Autonomia de 8 Horas</li>
-
                             </ul>
                             <div class="product-btn-wrapper">
                                 <button class="btn-know-more btn-specs">
@@ -167,7 +167,9 @@
                 <div class="flip-card-container">
                     <div class="flip-card">
                         <div class="flip-card-front">
-                            <img src="assets/imagens/Asset 29.png" />
+                            <img
+                                src="assets/imagens/novas/totem/HumanRobotics_RobiosTotem_01_20221110.553.png"
+                            />
                             <h2>RobiOS Totem</h2>
                             <p>
                                 O Robios Totem é um robô interativo num corpo de
@@ -214,7 +216,9 @@
                 <div class="flip-card-container">
                     <div class="flip-card">
                         <div class="flip-card-front">
-                            <img src="assets/imagens/Robios 3.webp" />
+                            <img
+                                src="assets/imagens/novas/robiOS/HumanRobotics_RobIOS_01_20221110.png"
+                            />
                             <h2>RobiOS</h2>
                             <p>
                                 Uma inteligência artificial que pode ser
@@ -237,7 +241,9 @@
                                 Especificações
                             </h3>
                             <ul>
-                                <li>Disponível em todos os dispositivos Android</li>
+                                <li>
+                                    Disponível em todos os dispositivos Android
+                                </li>
                                 <li>Sensor de Presença</li>
                                 <li>Alto Falantes HiFi</li>
                                 <li>Tela de 11 Polegadas</li>
@@ -303,7 +309,6 @@
         <section id="section-03" class="fade-in">
             <div class="experience-wrapper exp-wrp-1">
                 <div class="experience-track">
-
                     <!-- 10 Imagens -->
 
                     <div class="experience-item">
@@ -383,11 +388,10 @@
                     <div class="experience-item">
                         <img src="https://source.unsplash.com/random/300×300" />
                     </div>
-                    
+
                     <div class="experience-item">
                         <img src="https://source.unsplash.com/random/300×300" />
                     </div>
-
                 </div>
             </div>
             <div class="content-wrapper">
@@ -404,7 +408,6 @@
             </div>
             <div class="experience-wrapper exp-wrp-2">
                 <div class="experience-track-2">
-
                     <!-- 10 Imagens -->
 
                     <div class="experience-item">
@@ -475,11 +478,10 @@
                     <div class="experience-item">
                         <img src="https://source.unsplash.com/random/300×300" />
                     </div>
-                    
+
                     <div class="experience-item">
                         <img src="https://source.unsplash.com/random/300×300" />
                     </div>
-
                 </div>
             </div>
         </section>
@@ -494,9 +496,10 @@
                 </p>
             </div>
 
-            <div class="contato-newsletter-wrapper">
-                <!--generate a newsletter form-->
-                <form action="">
+            <div class="content-wrapper-contato">
+                <div class="contato-newsletter-wrapper">
+                    <!--generate a newsletter form-->
+                    <form action="">
                         <input type="text" placeholder="Nome" />
                         <input type="text" placeholder="E-mail" />
                         <input type="text" placeholder="Telefone" />
@@ -507,7 +510,13 @@
                         <input type="text" placeholder="País" />
                         <input type="text" placeholder="Mensagem" />
                         <button type="submit">Enviar</button>
-                </form>
+                    </form>
+                </div>
+
+                <div id="globe-wrapper">
+                    <div id="globe-container"></div>
+                </div>
+            </div>
         </section>
 
         <footer>
@@ -591,11 +600,16 @@
     </body>
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+    <script src="//unpkg.com/three"></script>
+    <script src="//unpkg.com/globe.gl"></script>
+
     <script defer src="main.js"></script>
 
     <script defer src="js/load.js"></script>
     <script defer src="js/observers.js"></script>
     <script defer src="js/scroll-listeners.js"></script>
+    <script defer src="js/globe.js"></script>
 </html>
 
 <!--

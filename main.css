@@ -917,7 +917,6 @@ section {
     justify-content: center;
 
     perspective: 800px;
-    overflow: hidden;
 }
 
 .experience-item img {
@@ -930,8 +929,17 @@ section {
     transform: translateZ(50px);
 }
 
+.content-wrapper-contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
 .contato-newsletter-wrapper {
     width: 40vw;
+    left: -100;
 }
 
 .contato-newsletter-wrapper form {
@@ -970,6 +978,23 @@ section {
 .contato-newsletter-wrapper button:hover {
     cursor: pointer;
     background-color: var(--col-branding-01);
+}
+
+#globe-wrapper {
+    z-index: 0;
+
+    width: 600px;
+    height: 600px;
+
+    position: absolute;
+    right: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
 }
 
 footer {
