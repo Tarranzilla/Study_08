@@ -10,7 +10,7 @@ const world = Globe({})(document.getElementById("globe-container"))
 // Auto-rotate
 world.controls().autoRotate = true;
 world.controls().autoRotateSpeed = 0.35;
-world.controls().enabled = false;
+world.controls().enableZoom = false;
 
 const CLOUDS_IMG_URL = "assets/imagens/planeta/clouds.png";
 const CLOUDS_ALT = 0.004;

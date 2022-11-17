@@ -664,10 +664,7 @@ section {
 }
 
 .solution-video-wrapper {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-
+    position: relative;
     overflow: hidden;
     border-radius: 2vh;
 
@@ -675,8 +672,12 @@ section {
 }
 
 .solution-video-wrapper video {
+    position: absolute;
     width: 94vw;
-    height: auto;
+    height: 80vh;
+
+    top: 0;
+    left: 0;
 }
 
 .solution-buttons-wrapper {
@@ -921,6 +922,8 @@ section {
 
 .experience-item img {
     height: 100%;
+    width: 100%;
+
     object-fit: cover;
     transition: transform 0.5s ease-in-out;
 }
@@ -939,7 +942,7 @@ section {
 
 .contato-newsletter-wrapper {
     width: 40vw;
-    left: -100;
+    margin-right: 350px;
 }
 
 .contato-newsletter-wrapper form {
@@ -987,7 +990,7 @@ section {
     height: 600px;
 
     position: absolute;
-    right: 100px;
+    right: 200px;
 
     display: flex;
     align-items: center;
