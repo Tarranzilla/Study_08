@@ -925,7 +925,7 @@ section {
     justify-items: center;
     justify-content: space-around;
 
-    animation: scroll1 20s linear infinite;
+    animation: scroll1 30s linear infinite;
 }
 
 .experience-track-2 {
@@ -936,7 +936,7 @@ section {
     justify-items: center;
     justify-content: space-around;
 
-    animation: scroll2 20s linear infinite;
+    animation: scroll2 30s linear infinite;
 }
 
 .experience-track:hover,
@@ -977,11 +977,18 @@ section {
 }
 
 .experience-item img {
+    height: 80%;
+    width: 80%;
+
+    object-fit: contain;
+    transition: transform 0.5s ease-in-out;
+}
+
+.experience-track img {
     height: 100%;
     width: 100%;
 
     object-fit: cover;
-    transition: transform 0.5s ease-in-out;
 }
 
 .experience-item img:hover {
